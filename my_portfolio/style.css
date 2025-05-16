@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/mineplayer');
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
+
+::selection {
+  color: white;
+  background-color: #00c241;
+  border-radius: 2.5px;
+}
+
+@keyframes titleAnimation {
+  0% { color: white }
+  50% { color: lime; transform: scale(1.1); }
+  100% { color: aqua; transform: scale(1); }
+}
+
+html {
+  background-color: #1e1d20;
+  color: white;
+  font-family: "Minecraftia", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 25px;
+  margin-bottom: 350px;
+  user-select: none;
+  font-size: 75px;
+  font-family: "MinePlayer", sans-serif;
+  animation: titleAnimation 3.5s infinite alternate;
+  font-weight: normal;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 75px !important;
+  margin: 20px;
+  user-select: none;
+}
+
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+img {
+  display: flex;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img:click {
+  transform: scale(2);
+}
+
+a {
+  color: lime;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: aqua;
+  font-size: 20px;
+}
+
+.no-select, .no-select:hover {
+  cursor: default !important;
+  transform: scale(1) !important;
+}
