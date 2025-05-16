@@ -1,0 +1,100 @@
+@import url("https://fonts.cdnfonts.com/css/league-mono");
+
+:root {
+  --font: "League Mono", monospace;
+}
+
+html {
+  background-color: #14281d;
+  color: #e3e3e3;
+  font-family: var(--font);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 4rem;
+  color: #ffeecf;
+}
+
+.searchbox {
+  display: flex;
+  justify-content: center;
+  background-color: #405a36;
+  color: #e3e3e3;
+  border-radius: 99px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
+  font-family: var(--font);
+  border: none;
+  transition: 0.2s;
+}
+
+.searchbox:hover {
+  opacity: 80%;
+}
+
+.response {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 35px;
+  margin-left: 30px;
+  color: #ffeecf;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+img {
+  margin-top: 80px;
+  border-radius: 10px;
+  width: 70px;
+  display: inline-block;
+}
+
+a {
+  color: #dabe8b;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #dfd3be;
+}
+
+.side-title {
+  position: sticky;
+  left: 0;
+  top: 0;
+  margin: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.side-searchbox {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #405a36;
+  color: #e3e3e3;
+  border-radius: 99px;
+  margin: 20px;
+  width: 50%;
+  padding: 15px;
+  font-family: var(--font);
+  border: none;
+}
+
+.shortAns {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin: 50px;
+  color: #ffeecf;
+}
+
+h1 {
+  color: #ffeecf;
+}
