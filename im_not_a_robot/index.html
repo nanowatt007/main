@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <title>(Insecure) I Am Not A Robot</title>
+</head>
+
+<body>
+  <h2>Insecusre</h2>
+  <h1>I Am Not A Robot</h1>
+  
+  <form method="post" action="/processing">
+    <p>Is my mama fat?</p>
+      <input type="radio" name="joke" value="yes" required>
+      <label for="yes">Yes</label><br>
+      <input type="radio" name="joke" value="no" required>
+      <label for="no">No</label>
+
+    <p>What is your name?</p>
+    <input type="text" name="name" required>
+
+    <p>What is your favorite color?</p>
+    <select name="color" required>
+      <option name="color" value="none">No Opinion</option>
+      <option name="color" value="red">Red</option>
+      <option name="color" value="orange">Orange</option>
+      <option name="color" value="yellow">Yellow</option>
+      <option name="color" value="green">Green</option>
+      <option name="color" value="blue">Blue</option>
+      <option name="color" value="purple">Purple</option>
+      <option name="color" value="other">Other</option>
+    </select>
+
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
